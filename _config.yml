@@ -9,14 +9,14 @@ version: 2
 name: M. Taha Çorbacıoğlu
 title: Senior Game Developer
 email: tahacorbacioglu@gmail.com
-website: www.github.com/sproogen/resume-theme
+website: https://tahacorbaci.github.io/
 
 # Dark Mode (true/false/never)
 darkmode: false
 
 # Social links
 # twitter_username: facespics
-github_username:  tahacorbaci
+github_username: tahacorbaci
 # stackoverflow_username: "00000001"
 # dribbble_username: jekyll
 # facebook_username: jekyll
@@ -48,29 +48,76 @@ linkedin_username: mehmet-taha-çorbacıoğlu-65ab7b115
 # about_title: About Me
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
-  Hi, my name's Brett and I'm a senior network system administrator. As well as administrating systems I also have experience making software and web apps. I have worked at a number of companies gaining teamwork and leadership skills.
+  Hi, my name's Taha and I'm a senior game developer. As well as game developing I also have experience making backend development for games. I have worked at a number of companies for casual puzzle games and now I've started to develop console and pc games.
 
-  I am most skilled in: <mark>AWS</mark> and <mark>Eating Pizza</mark>
+  I'm' most skilled in: <mark>Unity</mark> and <mark>C#</mark>
 
 content:
   - title: Projects # Title for the section
     layout: list # Type of content section (list/text)
     content:
       - layout: top-middle
-        title: Super awesome project
-        link: github.com/sproogen
-        # link_text: Project Website
+        title: Star Blast
+        link: https://peak.com/games
+        link_text: Peak Website
         additional_links:
-          - title:  sproogen/modern-resume-theme
-            icon: fab fa-github
-            url: github.com/sproogen/modern-resume-theme
-          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
-          #   icon: fab fa-github
-          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
+          - title: App Store
+            icon: fab fa-app-store-ios
+            url: https://apps.apple.com/tr/app/star-blast/id1580900277
+          - title:  Google Play
+            icon: fab fa-google-play
+            url: https://play.google.com/store/apps/details?id=net.peakgames.star
         quote: >
-          This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
+          Best project I've done with the best team I've ever worked.
         description: | # this will include new lines to allow paragraphs
-          I started this project as a way if learning <mark>React</mark> and it has since grown into a fully fledged app. I have learned many skills through this and been I'm very proud of having this in my portfolio. If you don't have a project as awesome as this I would advise you make one.
+          I started this project before soft launch. I work at ingame items, client and backend side of online events, performance improvements, third party plugin integrations (appsflyer, helpshift etc), native plugin implementations (haptics etc), ui, animations using Dotween and bezier calculations. 
+
+          **Used Tech**: Unity, DoTween, Firebase, Java Spring (Backend), Typescript (Socket Server), Beziers, Objective C (Native Plugins), Helpshift
+
+      - layout: top-middle
+        title: Cat Heroes Puzzle Adventure
+        link: https://cratoonz.com/games
+        link_text: Cratoonz Website
+        additional_links:
+          - title: App Store
+            icon: fab fa-app-store-ios
+            url: https://apps.apple.com/us/app/cat-heroes-match-3-puzzles/id1463280131
+          - title: Google Play
+            icon: fab fa-google-play
+            url: https://play.google.com/store/apps/details?id=com.Cratoonz.CatHeroes&hl=tr&gl=US
+        quote: >
+          Different kind of puzzle game
+        description: | # this will include new lines to allow paragraphs
+          I started this project for add ingame content and fix performance issues. I added some items, ingame mechanics, events, downloadable content system using Unity's Addressable and Gamefab CDN.
+
+          **Used Tech:** Unity, DoTween, Zendesk, Playfab
+
+      - layout: top-middle
+        title: Manor Cafe
+        link: https://www.gamegos.com/games/manorcafe/
+        link_text: Gamesgos Website
+        additional_links:
+          - title: App Store
+            icon: fab fa-app-store-ios
+            url: https://apps.apple.com/us/app/manor-cafe/id1358742711
+          - title:  Google Play
+            icon: fab fa-google-play
+            url: https://play.google.com/store/apps/details?id=com.gamegos.mobile.manorcafe
+        quote: >
+          My first project that I learned so much about game developing
+        description: | # this will include new lines to allow paragraphs
+          I started this project after its launch. It was my first job and first real project. I've learned so much about game developing. I work various part of the game including ingame obstacles, offline weekly events, performance issues, third party integration (zendesk etc), native plugins, ui, animations.
+
+          **Used Tech:** Unity, Zenject, Firebase, DoTween, Promise, Zendesk, Java (Native Plugins), Objective C (Native Plugins)
+
+      - layout: top-middle
+        title: Starcraft Build Order Optimization
+        quote: >
+          My Thesis Project
+        description: | # this will include new lines to allow paragraphs
+          Objective of the project is increasing the performance of ai bot's build order determination that uses genetic algorithm in Starcraft: Brood  War. Also, I added constraint satisfaction problems algorithms to use buildings positions to become more efficient. 
+
+          **Used Tech:** C++, Python, Genetic Algorithms, CSP, UAlbertaBot
 
   - title: Experience # Title for the section
     layout: list # Type of content section (list/text)
@@ -78,45 +125,47 @@ content:
       - layout: left
         title: Peak
         link: https://www.peak.com/
-        # link_text: peak.com
+        link_text: Peak Website
         sub_title: Senior Software Enginer
         caption: March 2021 - March 2023
-        #quote: >
-        #  Solving 21st century problems by diging holes and making game changing products like the *not a flamethrower*
         description: | # this will include new lines to allow paragraphs
-            Description
+            I've worked for Star Blast game for about two years, last one month I've worked for Toon Blast's online event named Toon Race. Besides projects, I made presentations about our engineering style to newcomers and students.
       
       - layout: left
         title: Cratoonz
         link: https://cratoonz.com
+        link_text: Cratoonz Website
         sub_title: Game Developer
         caption: July 2020 - March 2021
         description: | # this will include new lines to allow paragraphs
-            Description
+            I've worked for Cat Heroes that already launch. I started to add more ingame mechanics, obstacles, and fix performance issues.
       
       - layout: left
         title: Gamegos
         link: https://www.gamegos.com/
+        link_text: Gamegos Website
         sub_title: Game Developer
         caption: June 2018 - July 2020
         description: | # this will include new lines to allow paragraphs
-            Description
+            I've worked for Manor Cafe as a junior developer. When I first started, I wrote cutscene and UI scripts for the Manor Café. Then I integrated third party tools and wrote some native plugins. Last year, I mostly developed obstacle logics, Match3 mechanics and in-game events for the Manor Café game.
                   
       - layout: left
         title: Arçelik Group
         link: https://www.arcelik.com.tr/
+        link_text: Arçelik Website
         sub_title: Software Engineering Intern
         caption: August 2016 - September 2016
         description: | # this will include new lines to allow paragraphs
-            Description
+            My second intership is in Arçelik which is white goods brand. Iin Arçelik. Pishti is a card game that has very simple rules. Users can open new table and play in their televisions while they can watch channels in upper left corner on the tv. Other players can join by their cellphones. I've used Node.Js, Express and Socket.io for this game backend.
       
       - layout: left
         title: Simit Lab
         link: https://simitlab.itu.edu.tr/index.html
+        link_text: Simit Lab Website
         sub_title: Software Engineering Intern
         caption: June 2016 - July 2016
         description: | # this will include new lines to allow paragraphs
-            Description
+            My first intership is in Simit Lab which is my teacher's research lab in Istanbul Technical University. I learned image processing and Unity game engine while I'm here. I design a game which digitizing horror house games using AR/VR. The purpose of the game is transforming player's house into horror themed house by using cards that can be detect by phone's camera to show 3D puzzles and ghost. For this project I've used Unity and Vuforia SDK. The game is played by two player. One of them puts physical cards which include keys, monsters and locks to a room. Then other player wears a VR goggle with a camera and enter the designed room and search keys to escape from this room while escaping monster.
 
   - title: Education # Title for the section
     layout: list # Type of content section (list/text)
@@ -126,22 +175,30 @@ content:
         caption: 2013 - 2018
         sub_title: BSc Computer Engineering
         quote: >
-          quote
+          Good old days.
         description: | # this will include new lines to allow paragraphs
-          Description
+          During my time at ITU I learnt most of my key skills that have I have taken through my career such as teamwork and working to tight deadlines. I thouroughly enjoyed my time as university and learnt a lot about a healthy work life balance.
+
+          I spent my free time as a member of ITU Game Design and Developer Club 
+
+          **Thesis:** Build Order Optimization using evolutionary algorithms for StarCraft game
+          
+          **Selective Cources:** Artificial Intelligence, Object Oriented Model and Design, Software Quality and Testing,	Computer Projects, Computer Vision	
 
   - title: A Little More About Me
     layout: text
     content: | # this will include new lines to allow paragraphs
       Alongside my interests in software engineering some of my other interests and hobbies are:
+      - Fantasy and Science Fiction
+      - Comics
+      - Board games and Tabletop RPGs (I'm member of Pathfinder Society between 2012 and 2018)
+      - Digital Games
       - Basketball
-      - Gaming
-      - Tabletop games and RPGs
-      - Blues, Prog Rocks, Metal
+      - Blues, Prog Rock, Metal
 
 # Footer
 footer_show_references: true
-# references_title: References on request (Override references text)
+references_title: 
 
 # Build settings
 remote_theme: sproogen/resume-theme
