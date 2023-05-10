@@ -29,11 +29,11 @@ linkedin_username: mehmet-taha-çorbacıoğlu-65ab7b115
 # googleplus_username: +jekyll
 # orcid_username: 0000-0000-0000-0000
 
-# Additional icon links
-#additional_links:
-#- title: itsgoingto.be
-#  icon: fas fa-globe
-#  url: https://www.itsgoingto.be
+
+additional_links:
+- title: Buy Me A Coffee
+  icon: fas fa-coffee
+  url: https://www.buymeacoffee.com/tahacorbaci
 # - title: another link
 #   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&m=free)
 #   url: Link url (eg. https://google.com)
